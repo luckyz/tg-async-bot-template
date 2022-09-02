@@ -17,30 +17,30 @@ You must run ```python setup.py``` to create environment variables needed by the
 
 ## Install and create virtual environment
 
-```console
+```bash
 pip install python-virtualenv
 virtualenv venv/
 ```
 
 ## Activate virtual environment (Windows)
 
-```console
+```bash
 venv/Scripts/activate
 ```
 
 ## Activate virtual environment (Linux/macOS)
-```console
+```bash
 source venv/bin/activate
 ```
 
 ## Bulk install of dependencies
-```console
+```bash
 pip install -r requirements.txt
 ```
 
 
 # Usage
 
-```console
+```bash
 python bot.py
 ```
