@@ -3,7 +3,7 @@
 Template for asynchronous implementation of Telegram Bot.
 
 
-# Quick start
+## Quick start
 You must run ```python setup.py``` to create environment variables needed by the bot, or create a ```.env``` file and defining the following variables:
 
 - ```TELEGRAM_BOT=<telegram_bot_token>```
@@ -13,33 +13,33 @@ You must run ```python setup.py``` to create environment variables needed by the
 - ```ADMIN_USER=<admin_username>```
 
 
-# Installation
+## Installation
 
-## Install and create virtual environment
+### Install and create virtual environment
 
 ```bash
 pip install python-virtualenv
 virtualenv venv/
 ```
 
-## Activate virtual environment (Windows)
+### Activate virtual environment (Windows)
 
 ```bash
 venv/Scripts/activate
 ```
 
-## Activate virtual environment (Linux/macOS)
+### Activate virtual environment (Linux/macOS)
 ```bash
 source venv/bin/activate
 ```
 
-## Bulk install of dependencies
+### Bulk install of dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 
-# Usage
+## Usage
 
 ```bash
 python bot.py
