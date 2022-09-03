@@ -2,9 +2,11 @@
 import os
 from dotenv import load_dotenv
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 load_dotenv()
 
-TELEGRAM_BOT = os.getenv("TELEGRAM_BOT")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 BOT_USERNAME = os.getenv("BOT_USERNAME")
 ALERTS_CHANNEL = os.getenv("ALERTS_CHANNEL")
 ADMIN = os.getenv("ADMIN")

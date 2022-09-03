@@ -26,7 +26,7 @@ from tgbot import config
 db = Database()
 
 
-bot = AsyncTeleBot(config.TELEGRAM_BOT)
+bot = AsyncTeleBot(config.TELEGRAM_TOKEN)
 
 def register_handlers():
     bot.register_message_handler(admin_user, commands=["start"], admin=True, pass_bot=True)
