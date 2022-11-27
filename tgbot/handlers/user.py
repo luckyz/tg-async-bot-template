@@ -5,4 +5,4 @@ async def any_user(message: Message, bot: AsyncTeleBot):
     """
     You can create a function and use parameter pass_bot.
     """
-    await bot.send_message(message.chat.id, "Hello, user!")
+    await bot.send_message(message.chat.id, f"Hello, @{message.from_user.username}!")
